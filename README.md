@@ -73,7 +73,7 @@
         * Create a conda environment:
 
             ```shell
-            conda create -n workshop anaconda pip python=3.5
+            conda create -n workshop anaconda pip python=3.6
             ```
             You can use any other name in place of `workshop` but be consistent hereafter
         * Activate the environment:
@@ -99,12 +99,12 @@
 
 2. **For demos using `Jupyter notebook`**
     * Launch `Jupyter notebook` ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/Jupyter.png)
-    * Navigate to the `AMDworkshop_demo` folder ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/2.png)
+    * Navigate to the `2s986_class` folder ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/2.png)
     * Navigate to the corresponding subfolders and click on `<demo name>.ipynb` to begin interacting with the demo ([Guide](https://jupyter-notebook.readthedocs.io/en/stable/))
 
 3. **For demos using `Spyder`**
     * Launch `Spyder` ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/Spyder.png)
-    * Navigate to the `AMDworkshop_demo` folder ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/4.png)
+    * Navigate to the `2s986_class` folder ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/4.png)
     * Navigate to the corresponding subfolders Run the `<demo name>.py` files as required from `Spyder` IDE ([Guide](https://pythonhosted.org/spyder/))
 
 ## License
