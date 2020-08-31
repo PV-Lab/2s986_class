@@ -64,7 +64,6 @@
             ```
             Your prompt should change, from `C:>` to `(workshop)C:>`
 
-            ```
         * Note: you can deactivate the environment by issuing `deactivate`. But make sure to activate the environment again before running any demos from the prompt, since the required packages are installed in this environment! For more information on conda environments, click [here](https://conda.io/docs/user-guide/tasks/manage-environments.html)
 
     * **MacOS, Linux**. In your opened terminal, issue the following:
@@ -79,7 +78,6 @@
             source activate workshop
             ```
             Your prompt should change, from `$` to `(workshop)$`
-            ```
 
         * Note: you can deactivate the environment by issuing `source deactivate`. But make sure to activate the environment again before running any demos from the terminal, since the required packages are installed in this environment! For more information on conda environments, click [here](https://conda.io/docs/user-guide/tasks/manage-environments.html)
 
