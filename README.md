@@ -23,7 +23,7 @@
                 Alternatively, check [here](https://git-scm.com/download/win) on installation instructions for `git` on Windows
         * Change directory by issuing
             ```shell
-            cd AMDworkshop_demo
+            cd 2s986_class
             ```
 
     * **MacOS, Linux**
