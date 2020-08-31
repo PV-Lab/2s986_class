@@ -102,10 +102,6 @@
     * Navigate to the `2s986_class` folder ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/2.png)
     * Navigate to the corresponding subfolders and click on `<demo name>.ipynb` to begin interacting with the demo ([Guide](https://jupyter-notebook.readthedocs.io/en/stable/))
 
-3. **For demos using `Spyder`**
-    * Launch `Spyder` ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/Spyder.png)
-    * Navigate to the `2s986_class` folder ![alt text](https://github.com/acceleratedmaterials/AMDworkshop_demo/blob/master/.pictures/4.png)
-    * Navigate to the corresponding subfolders Run the `<demo name>.py` files as required from `Spyder` IDE ([Guide](https://pythonhosted.org/spyder/))
 
 ## License
 
