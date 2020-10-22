@@ -1,4 +1,4 @@
-## Access MaterialsProject.org Dataase 
+## Access MaterialsProject.org Database 
 
 There are two convenient Python tools to access the database:
 
@@ -30,7 +30,7 @@ Install and update via pip
 
 
 
-### API keys from 
+### API keys to data-mine MaterialsProject.org
 
 To use the Materials API, you need to first have an API key.
 
