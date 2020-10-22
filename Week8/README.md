@@ -1,4 +1,4 @@
-## Access MaterialsProject.org Database 
+# Access MaterialsProject.org Database 
 
 There are two convenient Python tools to access the database:
 
