@@ -1,0 +1,67 @@
+TO DO LIST FOR BAYESIM
+----------------------
+
+[* for necessary for paper, ~ for need to decide if it's necessary, - for future ideas]
+
+* doc stuff:
+  * add caveat that it's all subject to the model being "true"
+  * add "prerequisites" or something section to docs
+  * eventually, links in notebook examples to relevant bits of documentation...
+
+* more 'verbose' options
+
+* add more options to CL interface (e.g. invoking comparison plot/visualize_grid, other tweaks to behavior)
+
+* fix log spacing on visualize() in CL version
+
+* fix save_step behavior in light of new run() protocol
+
+* check 2.7 vs. 3.6 compatibility
+
+
+~ why is tol_digits ever getting set on logarithmic parameters (e.g. Bp in diode)
+
+~ change model.attach_params to call attach_ecs and attach_fit_params
+
+~ either move true_vals star to x-axis or use a vertical line (and add legend for them)
+
+~ if parallelizing anything else, move external functions to utils
+
+~ include all options in argparser for command line
+
+~ maybe visualize model uncertainties?
+
+~ speed up visualize_grid somehow (parallelize?)
+
+~ save model function somehow to at least theoretically close loop within CL interface
+
+~ discard modeled EC points from file that aren't in observations rather than just importing and ignoring (in check_ecs function)
+
+~ change project_2D to use grid also (also maybe pass patch parameters rather than actual patch objects?) NOTE: tried this and it seemed to get slower, at least up to the scale I tried (~1000 grid points) - maybe use imshow?
+
+~ plotting points from an inference run?
+
+~ figure out if list_model_pts_to_run can be made faster
+
+~ for big data sets, save_state might need to write separate HDF5 files and store paths to them in the state file
+
+~ make default value of th_pv (and th_pm?) dimension-number-dependent
+
+~ option to give Python object (DataFrame) to attach_observations rather than only a file
+
+~ play with code profiling to speed up slow steps (e.g. calc_model_gradients)
+
+
+- GUI!
+
+- mpi4py?
+
+- allow multiple output variables
+
+- animations
+
+- hierarchical indexing to save space rather than everything written out in every row
+
+- alternative error models (e.g. lognormal as well as normal)
+
+- allow arbitrary parameter space sampling (e.g. user-provided points) in Pmf? Then regions could be defined by a Voronoi tessellation rather than hyper-rectangular-prisms or whatever
