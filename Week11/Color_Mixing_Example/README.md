@@ -1,8 +1,12 @@
 ### What are the files in this folder?
 `ssh_command.py` - the ssh commands for OT2 robot
+
 `color_mixing.py` - the python Protocol (i.e., the execution sequence) for OT2 robot
+
 `utils.py` - some functions for plotting and other tasks
+
 `image_process.py` - image processing functions to extract RGB values from a camera image
+
 `gpyopt_optimizer.py` - BO optimizer which uses GPyOpt API
 
 `color_mixing_with_BO.iphynb` - one example code that will be used to run your algorithm 
