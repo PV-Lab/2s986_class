@@ -12,7 +12,8 @@
 `color_mixing_with_BO.iphynb` - one example code that will be used to run your algorithm 
 
 
-### If you decided to use GPyOpt, you need to install it. (Of course, you don't need to use GPyOpt or Emukit. But, inform us in advance if you are using special packages.)
+### If you decide to use GPyOpt, you need to install it. 
+### (Of course, you don't need to use GPyOpt or Emukit. But, inform us in advance if you are using special packages.)
 One tip is to install Emukit (another implenmentation of BO) first:
 
 `pip install emukit`
