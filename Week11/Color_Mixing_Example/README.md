@@ -17,7 +17,7 @@ Then, install GPyOpt
 
 `pip install GPyOpt`
 
-This is the werid but effective way we found that solves a package dependence issue on scipy version. 
+This is the werid but effective way we found that solves a package dependence issue on scipy version. Both GPyOpt and Emukit are the BO wrapper based on GPy.
 
 You might need to install C++ editor or compilers if the error prompts during installation.
 
