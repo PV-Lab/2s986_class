@@ -28,7 +28,7 @@ You might need to install C++ editor or compilers if the error prompts during in
 
 ### Please pay attentions to what is described below when reading the example code. 
 
-You only need to write code to define 4 things
+You only need to write code to define 4 things: X_init, Y, X_new and num_rounds
 
 #### intial conditions
 X_init = [[50,50,100],[50,50,100],[50,50,100]] #liquid dispensing amount for initial sampling. The sum of the three values in each [] must be 200 uL
@@ -46,4 +46,4 @@ X_New = [[50,50,100],[50,50,100]] #liquid dispensing amount for subsequent sampl
 
 
 #### when to stop 
-for i in range(20): ## 20 subsequent runs ## you should implement an early break in the for loop 
+for i in range(num_rounds): ## num_rounds subsequent runs ## you should implement an early break in the for loop 
