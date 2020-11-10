@@ -26,7 +26,7 @@ This is the werid but effective way we found that solves a package dependence is
 You might need to install C++ editor or compilers if the error prompts during installation.
 
 
-### Please pay attentions to the data structure described below when reading the example code. 
+### Please pay attentions to what is described below when reading the example code. 
 
 You only need to write code to define 4 things
 
