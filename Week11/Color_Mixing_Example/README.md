@@ -12,7 +12,7 @@
 `color_mixing_with_BO.iphynb` - one example code that will be used to run your algorithm 
 
 
-### If you decided to use GPyOpt, you need to install it. (Of course, you don't need to use GPyOpt.)
+### If you decided to use GPyOpt, you need to install it. (Of course, you don't need to use GPyOpt or Emukit. But, inform us in advance if you are using special packages.)
 One tip is to install Emukit (another implenmentation of BO) first:
 
 `pip install emukit`
@@ -26,14 +26,24 @@ This is the werid but effective way we found that solves a package dependence is
 You might need to install C++ editor or compilers if the error prompts during installation.
 
 
-### Please, please pay attentions about the data structure described here. 
+### Please pay attentions to the data structure described below when reading the example code. 
 
-X = [[1,2,3],[1,2,3],[1,2,3]] #liquid dispensing amount
+You only need to write code to define 4 things
 
-RGB_list = [[255,255,255],[255,255,255],[255,255,255]] #the color outputs
+#### intial conditions
+X_init = [[50,50,100],[50,50,100],[50,50,100]] #liquid dispensing amount for initial sampling. The sum of the three values in each [] must be 200 uL
 
-Y = [[1],[1],[1]] #the optimization metric/error function
+#### optimizaiton metric 
+Y = [[1],[1],[1]] #the optimization metric/error function, which is defines the difference between RGB_exp to RGB_ref
+
+RGB_exp = [[255,255,255],[255,255,255],[255,255,255]] #the color outputs for sampples 
+
+RGB_ref = [[10,10,10]] #the color outputs for referenece. 
 
 
+#### subsequent conditions
+X_New = [[50,50,100],[50,50,100]] #liquid dispensing amount for subsequent sampling. The sum of the three values in each [] must be 200 uL
 
 
+#### when to stop 
+for i in range(20): ## 20 subsequent runs ## you should implement an early break in the for loop 
