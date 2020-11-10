@@ -26,11 +26,13 @@ This is the werid but effective way we found that solves a package dependence is
 You might need to install C++ editor or compilers if the error prompts during installation.
 
 
-### Please, please pay attentions about the data structure 
+### Please, please pay attentions about the data structure described here. 
 
 X = [[1,2,3],[1,2,3],[1,2,3]] #liquid dispensing amount
-RGB outputs = [[255,255,255],[255,255,255],[255,255,255]]
-Y = [[1],[1],[1]]
+
+RGB_list = [[255,255,255],[255,255,255],[255,255,255]] #the color outputs
+
+Y = [[1],[1],[1]] #the optimization metric/error function
 
 
 
