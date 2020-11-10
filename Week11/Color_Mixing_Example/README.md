@@ -7,7 +7,7 @@
 
 `image_process.py` - image processing functions to extract RGB values from a camera image
 
-`gpyopt_optimizer.py` - BO optimizer which uses GPyOpt API
+`gpyopt_optimizer.py` - BO optimizer which uses GPyOpt API (if you want to use BO, check it out here.)
 
 `color_mixing_with_BO.iphynb` - one example code that will be used to run your algorithm 
 
@@ -24,5 +24,14 @@ Then, install GPyOpt
 This is the werid but effective way we found that solves a package dependence issue on scipy version. Both GPyOpt and Emukit are the BO wrapper based on GPy.
 
 You might need to install C++ editor or compilers if the error prompts during installation.
+
+
+### Please, please pay attentions about the data structure 
+
+X = [[1,2,3],[1,2,3],[1,2,3]] #liquid dispensing amount
+RGB outputs = [[255,255,255],[255,255,255],[255,255,255]]
+Y = [[1],[1],[1]]
+
+
 
 
